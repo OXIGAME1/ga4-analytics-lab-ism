@@ -8,7 +8,7 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-D2VPW8ETE8');
+    gtag('config', 'G-D2VPW8ETE8', location.search.indexOf('debug_mode') > -1 ? { debug_mode: true } : {});
   </script>
 
   <!-- На занятии вставьте Google Tag сразу после открывающего head. -->
